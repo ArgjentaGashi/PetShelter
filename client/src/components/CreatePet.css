@@ -1,0 +1,126 @@
+button {
+    display: block;
+    padding: 7px 45px;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+h3 {
+    text-align: start;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 60%;
+    font-size: 20px;
+}
+th {
+    background-color: rgb(176, 175, 172);
+}
+td {
+    text-align: left;
+    padding:5px 10px;
+}
+.button {
+    background-color: rgb(88, 88, 247);
+}
+.skills {
+    text-align: left;
+}
+.form label {
+    display: block;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.form input {
+    padding: 5px 2px;
+    border: 1.5px solid black;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.form {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+    align-items: flex-start;
+    padding-bottom: 35px;
+}
+.form1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form2 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    margin-top: 30px;
+}
+.err {
+    font-size: 13px;
+    color: red;
+}
+.icon {
+    margin-right: 5px;
+}
+.single-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-details button {
+    background-color: red;
+}
+.likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.likes button {
+    margin-right: 30px;
+    background-color: green;
+}
+.likes p {
+    margin-top: 45px;
+}
+.details {
+    border: 2px solid black;
+    margin-top: 15px;
+    padding: 15px;
+}
+.details1, .details2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+.details1 {
+   margin-right: 80px;
+   text-align: left;
+}
+.details2 {
+    text-align: left;
+    line-height: 45px;
+}
+.details2 div {
+    line-height: 10px;
+}
+.details12 {
+    display: flex;
+}
